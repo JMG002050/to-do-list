@@ -1,0 +1,25 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "A minimalistc to-do list web app",
+  "main": "(script.js)",
+"scripts": {
+  "test": "mocha"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMG002050/to-do-list.git"
+  },
+  "author": "JMG002050",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMG002050/to-do-list/issues"
+  },
+  "homepage": "https://github.com/JMG002050/to-do-list#readme",
+  "devDependencies": {
+    "mocha": "^11.7.1"
+  }
+}
+
+
+
