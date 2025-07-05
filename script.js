@@ -10,6 +10,11 @@ let addBtn = document.getElementById('addBtn');
 addBtn.addEventListener('click', function() {
   let newTask = taskInput.value; 
 
+  if (newTask.trim() === '') {
+    alert('Please enter a task before adding.')
+    return;
+  }
+
   let listItem = document.createElement('li');
 
   let checkBtn = document.createElement('button');
