@@ -1,4 +1,5 @@
 // storing user's input and accessing these elements
+
 // input
 let taskInput = document.getElementById('taskInput');
 
@@ -25,5 +26,16 @@ addBtn.addEventListener('click', function() {
 
   let taskList = document.getElementById('list');
   taskList.appendChild(listItem);
+
+  taskInput.value= ''; 
+
+  checkBtn.addEventListener('click', function () {
+    listItem.classList.toggle('completed');
+    checkBtn.textContent = checkBtn.textContent === '⬜️' ? '✅' : '⬜️';
+  });
+
+  trashBtn.addEventListener('click', function() {
+    listItem.classList.toggle('hide');
+  });
 });
 
