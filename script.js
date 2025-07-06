@@ -16,14 +16,17 @@ addBtn.addEventListener('click', function() {
   }
 
   let listItem = document.createElement('li');
+  listItem.classList.add('task-item');
 
   let checkBtn = document.createElement('button');
   checkBtn.textContent = '⬜️';
+  checkBtn.classList.add('check-btn');
   
   let taskText = document.createTextNode(newTask);
 
   let trashBtn = document.createElement('button');
   trashBtn.textContent = '🗑️';
+  trashBtn.classList.add('delete-btn');
 
   listItem.appendChild(checkBtn);
   listItem.appendChild(taskText);
