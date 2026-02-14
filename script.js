@@ -6,6 +6,8 @@ let taskInput = document.getElementById('taskInput');
 // button
 let addBtn = document.getElementById('addBtn');
 
+document.getElementsByClassName(classNames)
+
 // function to make them add the input task to the to-do list
 addBtn.addEventListener('click', function() {
   let newTask = taskInput.value; 
