@@ -9,6 +9,12 @@ A simple browser-based to-do list app built with plain HTML, CSS, and JavaScript
 - Hide tasks from the list with a delete button
 - Styled notebook-like UI with custom background and Google Font
 
+## 📸 Preview
+![To-do List App Preview](resources/images/preview.jpeg)
+
+## Live Demo of site
+[View Live Site](https://jmg002050.github.io/to-do-list/)
+
 ## Project Structure
 - `index.html` - app layout and UI elements
 - `style.css` - visual styling for layout, buttons, and task states
