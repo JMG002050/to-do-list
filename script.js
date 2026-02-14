@@ -6,8 +6,7 @@ let taskInput = document.getElementById('taskInput');
 // button
 let addBtn = document.getElementById('addBtn');
 
-document.getElementsByClassName(classNames)
-
+let taskList = document.getElementById('list');
 // function to make them add the input task to the to-do list
 addBtn.addEventListener('click', function() {
   let newTask = taskInput.value; 
@@ -34,7 +33,6 @@ addBtn.addEventListener('click', function() {
   listItem.appendChild(taskText);
   listItem.appendChild(trashBtn);
 
-  let taskList = document.getElementById('list');
   taskList.appendChild(listItem);
 
   taskInput.value= ''; 
@@ -45,7 +43,7 @@ addBtn.addEventListener('click', function() {
   });
 
   trashBtn.addEventListener('click', function() {
-    listItem.classList.toggle('hide');
+    listItem.remove();
   });
 });
 
